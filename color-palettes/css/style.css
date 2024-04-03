@@ -1,3 +1,4 @@
+/* Color Palette 1 */
 #head1 {
     font-family:cursive;
     text-align: center;
@@ -6,6 +7,68 @@
     background-color: #3bff00;
     color: white;
     font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#c2 {
+    background-color: #FF7F11;
+    color:white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#c3 {
+    background-color: rgb(148, 148, 9);
+    color:white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+/* Color Palette 2 */
+#head2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+#c4 {
+    background-color: #F15156;
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#c5 {
+    background-color: #721121;
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#c6 {
+    background-color: #A5402D;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#head3 {
+    font-family: monospace;
+    text-align: center;
+}
+#c7 {
+    background-color: #E8D7FF;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+#c8 {
+    background-color: #FFD3E8;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+#c9 {
+    background-color: #FFD7D5;
+    font-family: monospace;
     text-align: center;
     padding: 24px;
 }
