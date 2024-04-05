@@ -1,0 +1,28 @@
+div {
+    border: 10px solid black;
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: blueviolet;
+}
+p {
+    background-color: blue;
+    margin: 60px;
+    padding: 48px 60px;
+    border-radius: 48px;
+}
+/* 
+    1 value margin/padding: gets applied to all 4 sides of the element.
+    
+    2 value margin/padding: The first value gets applied to the top and bottom of the 
+    element.
+    The second value gets applied to the left and right of the element.
+    
+    3 value margin/padding: The first value gets applied to the top element.
+    The second value gets applied to thee left and right of the element.
+    The third value gets applied to the bottom of the element.
+    
+    4 value margin/padding: The first value gets applied to the top element.
+    The second value gets applied to thee left and right of the element.
+    The third value gets applied to the bottom of the element.
+    The fouth value will get applied to the left.
+/*
