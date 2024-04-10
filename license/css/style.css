@@ -6,6 +6,7 @@
 
     Good luck, and have fun!
 */
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 #license {
     border: 2px solid black;
     border-radius: 24px;
@@ -63,7 +64,7 @@ h4 {
 }
 #signature {
     text-align: center;
-    font-family: cursive;
+    font-family: "Ms Madi", cursive;
     font-size: 28px;
     font-weight: bold;
 }
