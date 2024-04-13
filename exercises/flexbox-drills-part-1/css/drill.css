@@ -1,0 +1,35 @@
+/* Drill 1 - Write your code solution below */
+#container-1 {
+    display: flex;
+}
+
+/* Drill 2 - Write your code solution below */
+#container-2 {
+    display: flex;
+}
+
+/* Drill 3 - Write your code solution below */
+#container-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Drill 4 - Write your code solution below */
+#container-4 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* Drill 5 - Write your code solution below */
+#container-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*
+When flex-direct is row (the default), justify-content is horizontal and 
+align-items is vertical
+When flex-direct is column, justify-content is vertical and align-items is 
+horizontal
+*/
