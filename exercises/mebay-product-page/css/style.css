@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "product-item product-info sidebar";
+}
+
+.gridcontainer {
+    background-color: lightgreen;
+    padding: 20px;
+}
+.product-info h2 {
+    font-size: large;
+}
+.product-info {
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.product-info button:hover {
+    background-color: red;
+}
+.sidebar {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+.sidebar a {
+    text-decoration: none;
+    color: blue;
+}
+.sidebar a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+h1 {
+    text-align: center;
+    color: red;
+}
