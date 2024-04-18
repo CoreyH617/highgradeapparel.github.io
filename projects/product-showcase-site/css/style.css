@@ -4,12 +4,40 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    padding: 0px;
 }
 .images1 {
     width: 50%;
     margin: 0px auto;
+    border-radius: 5px;
+    height: auto;
 }
 .light-container {
     background-color: aqua;
-    padding: 48px 0px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px;
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+.images2 {
+    width: 50%;
+    height: auto;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+.images3 {
+    width: 50%;
+    height: auto;
+    margin: 0px auto;
+    border-radius: 5px;
 }
