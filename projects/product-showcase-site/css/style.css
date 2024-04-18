@@ -7,7 +7,7 @@ body {
     padding: 0px;
 }
 .images1 {
-    width: 50%;
+    width: 200;
     margin: 0px auto;
     border-radius: 5px;
     height: auto;
@@ -30,13 +30,13 @@ p {
     margin-top: 10px;
 }
 .images2 {
-    width: 50%;
+    width: 200;
     height: auto;
     margin: 0px auto;
     border-radius: 5px;
 }
 .images3 {
-    width: 50%;
+    width: 200;
     height: auto;
     margin: 0px auto;
     border-radius: 5px;

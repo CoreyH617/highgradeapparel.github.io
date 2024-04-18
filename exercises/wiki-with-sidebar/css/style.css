@@ -4,13 +4,17 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    padding: 0px;
 }
 #two-column {
     display: flex;
+    justify-content: space-between;
+
 }
 #sidebar {
     background-color: burlywood;
     width: 250px;
     padding: 24px;
     border-right: 5px solid brown;
+    flex: 1;
 }
