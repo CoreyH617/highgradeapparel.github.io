@@ -43,3 +43,7 @@ body {
     grid-area: content;
     margin: 0px 36px;
 }
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
