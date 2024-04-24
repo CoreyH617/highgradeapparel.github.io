@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+/* HERO 1 */
+#curry-hero {
+    background-image: url(../images/curry.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom left;
+    display: flex;
+    align-items: center;
+}
+#curry-hero h1 {
+    margin: 0px;
+    font-size: 45px;
+    text-align: center;
+}
+#curry-hero p {
+    margin: 10px 0px 20px;
+    text-align: center;
+}
