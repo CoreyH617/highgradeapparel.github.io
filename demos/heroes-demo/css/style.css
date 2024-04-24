@@ -111,3 +111,24 @@ body {
 background-color: orange;
 color: #111;
 }
+/* EXTRA HEROS */
+#hero-1 {
+    height: 100vh;
+    background-image: url(../images/lizard.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#hero-1 h1 {
+    font-size: 15vw;
+    padding-left: 10vw;
+}
+#hero-2 {
+    background-image: url(../images/lonely-ocean.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+}
