@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;   
+}
+#hero {
+    background-image: url(../images/pexels-ollivves-1005417.jpg);
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero h1 {
+    background-color: lightblue;
+}
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+.cropped-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    padding: 24px;
+    border: 10px solid lightskyblue;
+}
+.cropped-grid-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 24px;
+}
