@@ -23,3 +23,93 @@ body {
     margin: 10px 0px 20px;
     text-align: center;
 }
+#curry-hero .btn {
+    display: block;
+    border: 2px solid orange;
+    margin: 0px auto;
+    width: max-content;
+    padding: 15px 55px;
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
+#curry-hero .btn:hover {
+    background-color: orange;
+    color: #efefef;
+}
+
+#masion-hero {
+    background-image: url(../images/4.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#masion-hero .hero-content {
+    text-align: right;
+    color: rgb(2, 2, 2);
+    padding: 5vh 8vw;
+}
+
+#masion-hero h1 {
+    font-size: 6vw;
+    margin-bottom: 3vh;
+}
+#masion-hero .btn {
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    padding: 15px 55px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
+#masion-hero .btn:hover {
+    background-color: gray;
+    color: black;
+}
+
+
+
+#frenchies-hero {
+    background-image: url("../images/french-bulldog.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+#frenchies-hero h1 {
+    font-size: 8vw;
+    margin-bottom: 0px;
+    margin-right: 5vw;
+}
+
+#frenchies-hero p {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#frenchies-hero a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
