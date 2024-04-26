@@ -50,20 +50,21 @@ body {
 #layout p {
     margin: 10px 0px 20px;
 }
-#layout a {
+#hero a {
     display: inline-block;
-    border: 2px solid red;
+    border: 2px solid black;
+    background-color: red;
     padding: 15px 55px;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    color: red;
+    color: white;
     transition: 
         background-color 0.5s,
         color 0.5s
     ;
 }
-#layout a:hover {
+#hero a:hover {
     background-color: black;
     color: #efefef;
 }
