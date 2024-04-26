@@ -7,7 +7,7 @@ body {
     
 }
 #header {
-    background-color: red;
+    background-color: black;
 }
 .container {
     width: 90%;
@@ -27,7 +27,7 @@ body {
     transition: background-color 0.5s;
 }
 .nav a:hover {
-    background-color: black;
+    background-color: red;
 }
 #hero {
     background-image: url(../images/pexels-didsss-3530101.jpg);
@@ -79,4 +79,10 @@ body {
     height: 100%;
     object-fit:fill
     padding: 24px;
+}
+#footer {
+    text-align: center;
+    color: #efefef;
+    background-color: #111;
+    padding: 10px 0px;
 }
