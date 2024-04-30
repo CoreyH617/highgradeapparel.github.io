@@ -1,0 +1,32 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+body {
+    font-family: sans-serif;
+    
+}
+.display-space {
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#poster1 {
+    border: 2px solid #000;
+    padding: 20px;
+}
+#poster2 {
+    border: 2px solid #000;
+    padding: 15px;
+}
+#poster3 {
+    border: 2px solid #000;
+    padding: 10px;
+}
+.display-space img {
+    width: 100%;
+}
