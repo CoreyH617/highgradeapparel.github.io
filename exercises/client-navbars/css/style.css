@@ -6,34 +6,19 @@ body {
     font-family: sans-serif;
     
 }
+/* CLIENT 1 */
 #navbar {
-    background: linear-gradient(to bottom, orange, black);
+    background: linear-gradient(to bottom, #7AA5E5, #EFDEC1, #5A5B44);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 
 }
 #navbar a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 24px;
-}
-#navbar #logo {
-    margin-right: auto;
-}
-#navbar img {
-    width: 200px;
-}
-#navbar .cta-button {
-    background-color: black;
-    color: orange;
-    border-radius: 24px;
-    padding: 16px 24px;
-    font-size: 20px;
+    align-items: center;
     font-weight: bold;
-    min-width: 150px;
-    text-align: center;
-    margin-right: 24px;
 }
 #layout {
     width: 800px;
@@ -44,15 +29,111 @@ body {
 #navbar {
     position: sticky;
     top: 0px;
-    color: white;
+    color: black;
 }
-#navbar-bottom {
-    background: linear-gradient(lightgreen, yellow, olive);
+#layout h1 {
+    text-align: center;
+}
+
+
+/* CLIENT 3 */
+#navbar1 {
+    background: linear-gradient(to bottom, orange, black);
+    display: flex;
+    justify-content: space-between;
+
+}
+#navbar1 a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+    align-items: center;
+    font-weight: bold;
+}
+#navbar1 .cta-button {
+    background-color: black;
+    color: orange;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+#layout1 {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+}
+#navbar1 {
+    position: sticky;
+    top: 0px;
+    color: black;
+}
+#layout1 h1 {
+    text-align: center;
+}
+#navbar-bottom1 {
+    background: linear-gradient( orange, black);
     display: flex;
     justify-content: space-between;
 }
-#navbar-bottom a {
+#navbar-bottom1 a {
     text-decoration: none;
-    color: white;
-    padding: 12[x 36px];
+    color: black;
+    padding: 12px 36px;
+    font-weight: bold;
+}
+#navbar-top1 {
+    background: linear-gradient( orange, black);
+    display: flex;
+    justify-content: center;
+}
+#navbar-top1 a {
+    text-decoration: none;
+    color: black;
+    padding: 12px 36px;
+    font-weight: bold;
+}
+
+/* CLIENT 2 */
+#navbar2 {
+    background: linear-gradient(to bottom, red, orange, yellow);
+    display: flex;
+    justify-content: space-around;
+
+}
+#navbar2 a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+    align-items: center;
+    font-weight: bold;
+}
+#navbar2 .cta-button {
+    background-color: red;
+    color: black;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+#layout2 {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+}
+#navbar2 {
+    position: sticky;
+    top: 0px;
+    color: black;
+}
+#layout2 h1 {
+    text-align: center;
 }
