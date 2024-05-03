@@ -443,65 +443,55 @@ body {
 /* CSS for tablet */
 @media screen and (max-width: 1000px) and (min-width: 801px) {
     #grid-layout {
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-areas:
-        "middle-left middle-center middle-right"
-        "middle-left middle-center middle-right"
-        "middle-left middle-center middle-right"
-        "middle-left middle-center middle-right"
-        "middle-left middle-center middle-right";
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-areas: "card-1 card-2 card-3";
     }
-  
-    #grid-layout h1 {
-      font-size: 24px; 
-    }
-  
-    #nav {
-      flex-wrap: wrap;
-    }
-  
-    #nav a {
-      flex: 1;
-    }
-  }
 
-  /* CSS for mobile  */
+    header h1 {
+        font-size: 24px; 
+    }
+
+    #nav {
+        flex-wrap: wrap; 
+    }
+
+    #nav a {
+        flex: 0 0 33.33%; 
+    }
+}
 @media screen and (max-width: 800px) {
     #grid-layout {
-      grid-template-columns: 1fr;
-      grid-template-areas:
-        "middle-center"
-        "card-1"
-        "card-2"
-        "card-3"
-        "footer";
+        grid-template-columns: 1fr; 
+        grid-template-areas: "card-1" "card-2" "card-3";
     }
-  
+
     #shield-image,
     #search-bar,
     #search-button {
-      display: none; 
+        display: none; 
     }
-  
-    h1 {
-      font-size: 1.5rem; 
+
+    header {
+        flex-direction: column; 
     }
-  
+
+    header h1 {
+        font-size: 20px; 
+
     #nav {
-      flex-wrap: wrap;
+        flex-wrap: wrap; 
     }
-  
+
     #nav a {
-      flex: 1 0 40%; 
+        flex: 0 0 50%; 
     }
 
-
-    #header,
-  #nav,
-  #content,
-  .card {
-    padding: 0;
-    margin: 0;
-    background-color: transparent;
-  }
+    #card-1,
+    #card-2,
+    #card-3,
+    #grid-layout {
+        padding: 0;
+        margin: 0;
+        background-color: transparent;
+    }
 }
