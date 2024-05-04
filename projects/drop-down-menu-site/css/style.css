@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, lightpink, red);
+}
+#navbar {
+    background: linear-gradient(to bottom, lightpink, red);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+}
+#navbar a:hover {
+    background: linear-gradient(to top, lightpink, red);
+}
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px; 
+    padding-bottom: 12px;
+}
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+   
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+.dropdown-menu a {
+    background-color: salmon;
+    width: 100%;
+    min-width: 200px;
+}
+#navbar .dropdown-menu a:hover {
+    background: red;
+}
+.hero h1, p {
+    text-align: center;
+}
+.content h2 {
+    text-align: center;
+}
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content1 h2 {
+    text-align: center;
+}
+.content1 img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content2 h2 {
+    text-align: center;
+}
+.content2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.content3 h2 {
+    text-align: center;
+}
+.content3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
